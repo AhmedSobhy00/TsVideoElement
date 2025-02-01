@@ -153,7 +153,7 @@ class CustomVideoPlayer {
             max-width: 600px;
             margin: 0 auto;
             position: relative;
-            border-radius: 10px;
+            border-radius: 8px;
             overflow: hidden;
             background: black;
         }
@@ -168,7 +168,7 @@ class CustomVideoPlayer {
             left: 0;
             right: 0;
             background: rgba(67, 75, 117, 0.7);
-            padding: 10px;
+            padding: 5px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -204,11 +204,10 @@ class CustomVideoPlayer {
         }
       
         .volume-bar {
-            width: 80px;
+            width: 10%;
             height: 5px;
             border-radius: 5px;
             cursor: pointer;
-            transition: height 0.2s;
             outline: none;
         }
         
