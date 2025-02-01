@@ -1,0 +1,23 @@
+{
+  "name": "tsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedSobhy00/TsVideoElement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedSobhy00/TsVideoElement/issues"
+  },
+  "homepage": "https://github.com/AhmedSobhy00/TsVideoElement#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
