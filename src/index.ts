@@ -52,8 +52,8 @@ class CustomVideoPlayer {
         this.skipForwardBtn,
         this.muteBtn,
         this.volumeBar,
-        this.fullscreenBtn,
         timeContainer,
+        this.fullscreenBtn,
     ]);
     
 
@@ -129,7 +129,6 @@ private toggleMute(): void {
       return `${min}:${(sec < 10 ? '0' : '') + sec}`;
   }
 
-  // 🔹 Utility Functions 🔹 //
   private createVideoElement(): HTMLVideoElement {
       const video = document.createElement('video');
       video.src = this.videoUrl;

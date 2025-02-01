@@ -41,8 +41,8 @@ class CustomVideoPlayer {
             this.skipForwardBtn,
             this.muteBtn,
             this.volumeBar,
-            this.fullscreenBtn,
             timeContainer,
+            this.fullscreenBtn,
         ]);
         this.appendChildren(container, [this.videoElement, this.controlsContainer]);
     }
@@ -105,7 +105,6 @@ class CustomVideoPlayer {
         const sec = Math.floor(seconds % 60);
         return `${min}:${(sec < 10 ? '0' : '') + sec}`;
     }
-    // 🔹 Utility Functions 🔹 //
     createVideoElement() {
         const video = document.createElement('video');
         video.src = this.videoUrl;
